@@ -63,9 +63,17 @@ const Index = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="bg-gradient-to-r from-[#1F2937] to-[#374151] text-white py-20"
+        className="relative bg-gradient-to-r from-[#1F2937] to-[#374151] text-white py-20 overflow-hidden"
       >
-        <div className="container mx-auto px-4">
+        <div className="absolute inset-0 opacity-20">
+          <img
+            src="/img/2bf1c332-dbb3-4378-8f71-c12970751183.jpg"
+            alt="Background"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1F2937]/90 to-[#374151]/90"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-5xl font-bold leading-tight">
@@ -138,8 +146,19 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section
+        id="services"
+        className="relative py-20 bg-gray-50 overflow-hidden"
+      >
+        <div className="absolute inset-0 opacity-10">
+          <img
+            src="/img/d3020dca-596a-44d5-9420-e1cc3f1bc87f.jpg"
+            alt="Background"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gray-50/95"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#1F2937] mb-4">
               Услуги пригона автомобилей
@@ -293,8 +312,16 @@ const Index = () => {
       </section>
 
       {/* Catalog Section */}
-      <section id="catalog" className="py-20">
-        <div className="container mx-auto px-4">
+      <section id="catalog" className="relative py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <img
+            src="/img/2dbda502-41a3-4746-8330-b9ffe2a0e054.jpg"
+            alt="Background"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-white/98"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#1F2937] mb-4">
               Популярные модели
@@ -468,8 +495,19 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contacts" className="py-20 bg-[#1F2937] text-white">
-        <div className="container mx-auto px-4">
+      <section
+        id="contacts"
+        className="relative py-20 bg-[#1F2937] text-white overflow-hidden"
+      >
+        <div className="absolute inset-0 opacity-15">
+          <img
+            src="/img/2bf1c332-dbb3-4378-8f71-c12970751183.jpg"
+            alt="Background"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-[#1F2937]/90"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Свяжитесь с нами</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
