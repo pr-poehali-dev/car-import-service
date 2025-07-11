@@ -23,7 +23,7 @@ const Index = () => {
             <div className="flex items-center space-x-2">
               <Icon name="Car" size={28} className="text-[#3B82F6]" />
               <span className="text-2xl font-bold text-[#1F2937]">
-                AutoImport
+                АвтоПОТОК
               </span>
             </div>
             <nav className="hidden md:flex space-x-8">
